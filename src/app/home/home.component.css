@@ -1,0 +1,355 @@
+.w3-row:before
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.homepage  {
+    margin: 0 0 0px;
+}
+
+.banner .flexslider.home-banner-slider{
+    margin: 0 0 0px;
+}
+
+.flexslider {
+    margin: 0 0 60px;
+    position: relative;
+    zoom: 1;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.homepage .banner .home-banner-slider .top-logo {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top-logo img {
+    width: 270px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.discover {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider {
+    zoom: 1;
+     padding: 0px;
+}
+
+.flex-viewport{
+    position: absolute;
+}
+
+
+
+h4{
+  
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: Avenir-Light;
+    font-weight: 600 !important;
+    line-height: 32px;
+}
+
+
+
+
+.mob-banner {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .desk-banner{
+      display: none!important;
+    }
+    .mob-banner {
+      display: block!important;
+    }
+  }
+
+
+  @media (max-width: 760px){
+.content {
+    left: 10px;
+    top: 200px;
+    transform: none;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.carousel-caption
+{
+ display: none;
+}
+  }
+
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+  }
+
+
+ .navbar {
+    font-weight: 500;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+.atext {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #202020;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+p .side-heading {
+    font-family: 'Avenir-Light';
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mobile-pic{
+    display: none;
+}
+
+
+.wallpaper1
+{
+    position: relative;
+}
+
+.desktop-pic
+{
+    display: block;
+}
+  
+  @media only screen and (max-width: 760px) {
+    .desktop-pic{
+      display: none!important;
+    }
+    .mobile-pic {
+      display: block!important;
+    }
+  }
+
+ .wallpaper1 .content {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    width: 30%;
+    transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+}
+
+.wallpaper1 .side-heading {
+    font-family: 'Avenir-Light';
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* design collection */
+ .container{
+    width:363px;
+    height: 400px;
+    position: relative;
+    padding:0px;
+    
+    
+}
+
+.image
+{
+    display: block;
+    width: 363px;
+    height:400px;
+}
+
+.overlay
+{ 
+    width: 363px;
+    height: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+  
+    background:rgba(122,205,200,0.8);
+
+}
+
+.container:hover > .overlay{
+    height: 100%;
+    display: block;
+    transform-origin: bottom;
+}
+
+.text
+{
+    color: #ffff;
+    background-color: rgb(03 31 31 / 1%);
+    font-size: 18px;
+    height: 34px;
+    width: 112px;
+    position: absolute;
+    transform: translate(133px,187px);
+    border: 1px solid #fff;
+}
+
+
+
+
+/* desktop-wallpaper css*/
+
+.wallpaper-item {
+    background-position: center top 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 41px 18px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    background-color: #fff;
+    cursor: pointer;
+    width:175px;
+   
+}
+
+#bordercurve {
+    border-radius: 11px 0px 0px 11px;
+}
+
+
+
+/* mobile-wallpaper css*/
+
+.w3-center {
+    text-align: center!important;
+}
+.homepage .heading h2 {
+    font-style: normal;
+}
+.heading h2 {
+    font-family: Avenir-Light;
+    font-size: 28px;
+    color: #202020;
+    letter-spacing: 0.83px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: normal;
+}
+.w3-content {
+    max-width: 980px;
+    margin: auto;
+}
+.homepage .why-wallpaper .wallpaper-item .sub-heading {
+    background-position: left 15px top 15px;
+    background-repeat: no-repeat;
+    padding: 15px 10px;
+    background-color: rgb(248, 238, 225);
+    font-size: 12px;
+    font-family: Avenir-Light;
+    color: #202020;
+    letter-spacing: 0.83px;
+    box-sizing: border-box;
+    transition: all 0.0s ease;
+}
+.sub-heading h4 {
+    font-family: Avenir-Light!important;
+    font-size: 11px;
+    color: #202020;
+    letter-spacing: 2.4px;
+    font-weight: normal!important;
+}
+
+
+.mobile-wallpaper{
+  display:none;
+}
+.desktop-wallpaper{
+  display: block!important;
+}
+
+@media only screen and (max-width: 760px) {
+  .desktop-wallpaper{
+    display: none!important;
+  }
+  .mobile-wallpaper {
+    display: block!important;
+  }
+}
+
+
+
+
+
+/* bottom slider icon css */
+
+.icon-bottom-prev
+{
+    background-position-x: 10px;
+    background-position-y: 17px;
+    background-size: 18px;
+    background-image: url('https://stenna.in/wp-content/themes/stenna/img/left.png');
+    margin-right: -12px;
+    
+    background-color: #7ACDC8;width: 40px; height: 70px;
+    background-repeat: no-repeat;
+}
+
+.icon-bottom-next
+{
+    background-position-x: 10px;
+    background-position-y: 17px;
+    background-size: 18px;
+    background-image: url('https://stenna.in/wp-content/themes/stenna/img/right.png');
+    margin-left: -12px;
+    
+    background-color: #7ACDC8;width: 40px; height: 70px;
+    background-repeat: no-repeat;
+}
+
