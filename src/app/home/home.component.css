@@ -5,7 +5,6 @@
     clear: both;
 }
 
-
 .homepage  {
     margin: 0 0 0px;
 }
@@ -41,10 +40,22 @@ img {
 
 .discover {
     position: absolute;
-    bottom: 12px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+    padding: 16px 30px;
+    box-sizing: border-box;
+    background: #e0f3f1;
+    font-size: 12px;
+    bottom: 39px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.discover-text
+{
+    text-decoration:none;
+    color:#202020;
 }
 
 .slider {
@@ -56,8 +67,6 @@ img {
     position: absolute;
 }
 
-
-
 h4{
   
     font-size: 24px;
@@ -66,13 +75,6 @@ h4{
     font-weight: 600 !important;
     line-height: 32px;
 }
-
-
-
-
-/* its time for wallpaper */
-
-
 
 .mob-banner {
     display: none;
@@ -84,27 +86,36 @@ h4{
     }
     .mob-banner {
       display: block!important;
+      height: 624px;    width: 483px;
     }
   }
 
-
-  @media (max-width: 760px){
-.content {
-    left: 10px;
-    top: 200px;
-    transform: none;
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    position: absolute;
-}
-
-.carousel-caption
-{
- display: none;
-}
+/*text over slider starts*/
+  .content-desk-1
+  {
+    text-align: left;
+    bottom: 100px;
+    left: 88px;color: black;
   }
 
+  .content-desk-2
+  {
+    text-align: left;
+    bottom: 100px;
+    left: 727px;
+  }
+
+  .content-desk-3
+  {
+    text-align: left;
+    bottom: 294px;
+    left: 88px;
+    color: white;
+  }
+
+ /*text over slider ends*/
+
+ 
 
   .carousel-indicators li {
     width: 10px;
@@ -114,7 +125,10 @@ h4{
   }
 
 
- .navbar {
+
+  /*header*/
+.navbar
+ {
     font-weight: 500;
     outline: none;
     color: black;
@@ -122,8 +136,52 @@ h4{
     padding: 0px 10px;
 }
 
+#a
+{
+    width: 100%;
+    height: 45px;
+    padding: 0px 15px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+}
 
-.atext {
+#header-main
+{
+    height: 48px;
+    margin-top: 608px;
+}
+
+#a a
+{
+    background-color: transparent;
+}
+
+#a img
+{
+    width:130px; 
+    height:18px;
+}
+
+.header-text
+{
+    padding: 13px 30px;
+    box-sizing: border-box;
+    background:#7ACDC8;
+    font-size: 14px;
+    color: #FFFFFF!important;
+    letter-spacing: 1.23px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#navbarNav
+{
+    padding-top: 16px;
+    background-color: white;
+}
+
+/*its time for wallpaper */
+.atext 
+{
     display: table-cell;
     vertical-align: middle;
     font-size: 20px;
@@ -133,9 +191,14 @@ h4{
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
+    height: 0px;
     box-sizing: border-box;
 }
 
+#chair-image
+{
+    width:455px;
+}
 p .side-heading {
     font-family: 'Avenir-Light';
     font-size: 28px;
@@ -148,6 +211,12 @@ p .side-heading {
     display: none;
 }
 
+.desktop-pic img
+{
+    padding: 50px;
+     width:1329px;
+}
+
 
 .wallpaper1
 {
@@ -158,6 +227,7 @@ p .side-heading {
 {
     display: block;
 }
+
   
   @media only screen and (max-width: 760px) {
     .desktop-pic{
@@ -185,8 +255,10 @@ p .side-heading {
     display: inline-block;
 }
 
-
-
+.content p
+{
+    padding: 0px 21px;
+}
 
 
 
@@ -199,15 +271,21 @@ p .side-heading {
     height: 400px;
     position: relative;
     padding:0px;
-    
-    
 }
 
-.image
+.design-main
 {
-    display: block;
-    width: 363px;
-    height:400px;
+    padding: 0px 20px;
+}
+
+.desgin-heading
+{
+    text-align: center; font-size: 24px; letter-spacing: 1px;font-weight: 400;margin-bottom: 33px;
+}
+
+#design-image
+{
+    width:363px; height:400px;
 }
 
 .overlay
@@ -242,6 +320,18 @@ p .side-heading {
     border: 1px solid #fff;
 }
 
+.text h3
+{
+    padding: 0px;margin:0px;font-size:20px;text-align: center;
+}
+
+.heading-design h5
+{
+    text-align: center;
+    font-weight: 300;
+      padding: 7px;
+      font-size: 15px;
+}
 
 
 
@@ -266,6 +356,7 @@ p .side-heading {
 #bordercurve {
     border-radius: 11px 0px 0px 11px;
 }
+
 
 
 
@@ -400,3 +491,90 @@ p .side-heading {
     transform: translate(91px,45px);
     border: 1px solid #fff;
 }
+
+
+/* FOOTER CSS */
+
+.footer-container-fluid
+{
+    padding:40px 20px;box-sizing: border-box; background-color: #E3F3F1
+}
+
+.footer-row
+{
+    height:39px
+}
+
+.footer-row-list
+{
+    display:inline;
+}
+
+.footer-row-list ul
+{
+    list-style: none;
+}
+
+.footer-row-list li
+{
+    padding:10px;display: inline;
+}
+
+.footer-row-list li a
+{
+    text-decoration: none;color: black;font-size: 11px;letter-spacing: 2px;
+              font-weight: lighter;
+}
+
+.footer-side
+{
+    text-decoration: none;color: black;font-size: 11px;letter-spacing: 2px;
+          font-weight: lighter;text-align: center;
+          height: 39px;
+          margin-top: 15px;
+}
+
+
+
+/* BLOG CSS */
+
+/* blog main heading */
+/* .blog
+{
+    text-align: center; font-size: 28px; letter-spacing: 1px;font-weight: 400;margin-bottom: 33px;
+}
+
+.blog1
+{
+    width: 416.333px;margin-right: 0px;float: left;display:block; 
+}
+
+.blog2
+{
+    margin: 0px 20px; border: 30px solid #F8EEE1;box-sizing: border-box;cursor:pointer; width: 370px
+}
+
+.blog2 div
+{
+    padding: 50px;
+}
+
+.blog2 h5
+{
+    font-size: 26px;padding: 0px 21px;
+}
+
+.subname
+{
+    font-size: 20px
+}
+
+.half-image img 
+{
+    width:310px;
+}
+
+.half-image-text a{
+    padding: 0px;margin:0px;text-align: center;    font-size: 18px;
+                        line-height: 30px;
+} */

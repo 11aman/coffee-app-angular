@@ -1,0 +1,98 @@
+<!--HEADER-->
+<div class="container-fluid" id="header-main">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="a" >
+            <a class="navbar-brand" href="https://stenna.in/" >
+              <img src="https://stenna.in/wp-content/uploads/2020/02/header-logo.png" alt="" >
+            </a>
+
+            <a href="" class="header-text" style="background:#7ACDC8;">FIND YOUR WALLPAPER</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #7ACDC8">
+              <span class="navbar-toggler-icon" style="color: #7ACDC8"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav" >
+                <li class="nav-item active">
+                  <a class="navbar" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar" href="#">WARRANTY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar" [routerLink]="['/blog']">HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar" href="#">MYTH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="navbar" href="#">FAQ</a>
+                    </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+  </div><br>
+
+
+<!--------------------BLOG---------------------->
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-md-8 col-sm-8 col-xl-8 banner-img">
+                <img src="{{apidata.Bannerimage}}">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xl-4 blog-div">
+                <div class="row">
+                <div class="col-md-12">
+                  <h1 class="blogs">BLOGS</h1>
+                </div>
+                <div class="col-md-12 name" >
+                   <h1 class="name-h1">{{apidata.Name}}</h1>
+                   <h4>WELCOME TO GAINE</h4>
+                </div>
+                </div>
+             </div>
+     </div>
+     <div class="row">
+            <div class="col-md-6 description">
+                 <p>Bust : The adhesive that is used to apply Stenna wallpapers on the walls are water-based, anti-fungal, and anti-bacterial. Since wallpapers start peeling from the edges, the professionally-trained installers securely apply the wallpaper and ensure that it’s done in a way where the edges are secure.</p>
+             </div>
+         <div class="col-md-6 main-img">
+            <img src="https://stenna.in/wp-content/uploads/2018/09/Myth-1-1-min.jpg" alt="" width="100%">
+         </div>
+
+         
+     </div>
+
+       
+ </div><br>
+
+<!--------------------FOOTER---------------------->
+ <div class="container-fluid footer-container-fluid">
+    <div class="row footer-row">
+      <div class="col-md-6 footer-row-list">
+        <ul >
+          <li>
+            <a>ABOUT US</a>
+          </li>
+          <li >
+              <a >MYTH</a>
+            </li>
+            <li >
+                <a>CONTACT US</a>
+              </li>
+              <li >
+                  <a>PRIVACY POLICIY</a>
+                </li>
+        </ul>
+      </div>
+      <div class="col-md-6" >
+        <p  class="footer-side">© 2020, Stenna. All rights Reserved.</p>
+      </div>
+    </div>
+    
+  </div>
+

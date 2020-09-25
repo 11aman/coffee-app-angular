@@ -3,9 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 
@@ -14,12 +16,16 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
 
     HomeComponent,
+
+    BlogComponent,
     
    
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
