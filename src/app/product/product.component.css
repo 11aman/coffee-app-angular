@@ -161,4 +161,5 @@
   
   .product-img-container:hover .middle {
     opacity: 1;
+    color:white;
   }
