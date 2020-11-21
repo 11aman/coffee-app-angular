@@ -4,22 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GetStartComponent } from './get-start/get-start.component';
+import { ProductComponent } from './product/product.component';
 
 
-import { HomeComponent } from './home/home.component';
-import { BlogComponent } from './blog/blog.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
-    HomeComponent,
-
-    BlogComponent,
-    
-   
+    GetStartComponent,
+    ProductComponent,
+     
   ],
   imports: [
     BrowserModule,

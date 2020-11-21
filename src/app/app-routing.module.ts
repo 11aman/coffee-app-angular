@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { BlogComponent } from './blog/blog.component';
+import { GetStartComponent } from './get-start/get-start.component';
+import { ProductComponent } from './product/product.component';
 
 
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
-  {path:'blog/:id',component:BlogComponent},
+  {path:'',component:GetStartComponent},
+  {path:'product',component:ProductComponent},
   
 
 
