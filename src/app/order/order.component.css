@@ -1,0 +1,111 @@
+.main-outer-div
+{
+    display: block;
+    margin: 6px;
+    border: 1px solid;
+    width: 26%;
+    margin: 0% 0% 0% 37%;
+    border-radius: 20px;
+}
+
+
+
+  @media only screen and (max-width: 760px) {
+    .main-outer-div{
+        display: block!important;
+      border: 1px solid;
+      width: 100%;
+      margin: 0% 0% 0% 0%;
+    }
+   
+  }
+
+
+.main-inner-div
+{
+    border: 1px solid;
+    margin: 5px;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Lswk6pFz7E0aeA8vFofroKKK6ZKQH9ZltA&usqp=CAU'); */
+    height: 100%;
+    background: #f3f5f9b8;
+    border-radius: 18px;
+}
+.navbar-1
+{
+    width: 332px;
+    margin: 1px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    height: 10%; width: 100%; margin: 0% 1% 0% 1%;
+    background: #f5f5f5;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.img
+{
+    height: 100%;
+    width: 98%;
+    margin: 0% 0% 0% 5.5%;
+}
+
+@media only screen and (max-width: 760px) {
+    .img{
+        height: 100%;
+        width: 97%; margin: 0% 0% 0% 6%;
+    }
+   
+  }
+
+  #cont{
+    margin-top: 12%;
+    background: #d6dff785;
+    margin-bottom: 12%;
+    height: 250px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 26px;
+  }
+
+  .order-text{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz';
+    color: slategrey;
+    padding-top: 6%;
+  }
+
+  .order-otp{
+    border-style: double;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 19%;
+    width: 67%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+  }
+
+  .footer
+{
+    width: 332px;
+    margin: 1px;
+    box-shadow: 0px -5px 12px 6px rgba(0,0,0,0.3);
+    height: 10%; width: 100%; margin: 0% 1% 0% 1%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer div
+{
+    margin: auto;margin-top: -1%;
+}
+
+.footer-button
+{
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background: #ff785b;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    padding: 8px 8px 5px 8px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 13px;
+}
